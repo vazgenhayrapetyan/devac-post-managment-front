@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://devac-posts-managment-api.onrender.com/api',
+    baseURL: 'https://devac-posts-managment-api.railway.internal/api',
     headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json',
